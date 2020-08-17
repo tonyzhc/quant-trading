@@ -9,3 +9,20 @@ Plan of attack for now:
 ## Installation
 
 Requires [TA-Lib](https://ta-lib.org/) and its [Python wrapper](https://github.com/mrjbq7/ta-lib). See [installation](https://github.com/mrjbq7/ta-lib#installation) and [dependency](https://github.com/mrjbq7/ta-lib#dependencies) under the GitHub repo. 
+
+## Usages
+
+To start the server, run
+```
+python3 data.py
+```
+
+To stop the server, run
+```
+python3 server_shutdown.py
+```
+
+To see server logs, run
+```
+tail -f logs/trading-log
+```
