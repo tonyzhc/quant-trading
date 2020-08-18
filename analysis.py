@@ -9,5 +9,9 @@ from execution_type import Execution
 
 Transaction = Tuple[Execution, int]
 
+'''
+Returns a dictionary that maps the ticker symbol (string) to a tuple, which
+contains whether to buy or sell and the amount to buy or sell
+'''
 def analysis(data: DataFrame) -> Dict[str, Transaction]:
     pass
