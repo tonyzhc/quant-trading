@@ -8,7 +8,9 @@ Plan of attack for now:
 
 ## Installation
 
-Requires [TA-Lib](https://ta-lib.org/) and its [Python wrapper](https://github.com/mrjbq7/ta-lib). See [installation](https://github.com/mrjbq7/ta-lib#installation) and [dependency](https://github.com/mrjbq7/ta-lib#dependencies) under the GitHub repo. 
+Requires 
+- [yfinance](https://github.com/ranaroussi/yfinance) 
+- [TA-Lib](https://ta-lib.org/) and its [Python wrapper](https://github.com/mrjbq7/ta-lib). See [dependency](https://github.com/mrjbq7/ta-lib#dependencies) and [installation](https://github.com/mrjbq7/ta-lib#installation) under the GitHub repo. IMPORTANT: install dependencies first, then run `pip install talib`.
 
 ## Usages
 
